@@ -5,6 +5,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:unit:ci": "CI=true react-scripts test --testMatch **/src/*.test.js",
     "lint": "eslint ./src"
   },
   "dependencies": {
